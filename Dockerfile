@@ -7,5 +7,6 @@ RUN apt-get clean
 RUN apt install -y php
 RUN apt install -y libapache2-mod-php
 COPY index.php /var/www/html
+RUN rm /var/www/html/index.html
 EXPOSE 80 
 CMD ["apache2ctl", "-D", "FOREGROUND"]
