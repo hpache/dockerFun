@@ -21,6 +21,8 @@
         
     </body>
 
+    <a href="testFolder/test.html"> test </a>
+
 </html>
 
 
